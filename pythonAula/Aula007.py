@@ -28,6 +28,8 @@ di = n1 // n2
 e = n1 ** n2
 r = n1 % n2
 
-print('A soma é {}, a multiplicação é {}, a divisão é {:.3f}'.format(s, m, d), end=' ') # ':.3f' indica a quantidade de casas decimais, o 'end=' '' e para não quebrar a linha
-print('A divisão inteira é {},\n e exponecição é {}\n e o resto da divisão é {}'.format(di, e, r)) # o '\n' é para quebrar a linha
+print('A soma é {}, a multiplicação é {}, a divisão é {:.3f}'.format(s, m, d),
+       end=' ') # ':.3f' indica a quantidade de casas decimais, o 'end=' '' e para não quebrar a linha
+print('A divisão inteira é {},\n e exponecição é {}\n e o resto da divisão é {}'
+      .format(di, e, r)) # o '\n' é para quebrar a linha
 
