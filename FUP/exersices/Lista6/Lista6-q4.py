@@ -1,9 +1,9 @@
 """
 Dado o campeonato brasileiro de futebol, como exemplo da tabela seguinte,
 implemente umaMATRIZ (12 x 7), com 12 times participantes e as informações
-relacionadas (1- posição; 2 – time;3 – pontos; 4 – jogos; 5 – vitórias; 6 –
-empates; 7 – derrotas), informadas pelo usuário, paramostrar o resultado
-deste campeonato e os itens seguintes:
+relacionadas (1- posição; 2 time;3 pontos; 4 jogos; 5 vitórias; 6 empates;
+7 derrotas), informadas pelo usuário, paramostrar o resultado deste campeonato
+e os itens seguintes:
 
     a) O campeão brasileiro;
     b) Os 5 primeiros colocados que serão classificados para a libertadores
@@ -12,6 +12,7 @@ deste campeonato e os itens seguintes:
     sul-américa;
     d) Os 2 últimos que serão rebaixados para a série B.
 """
+
 serieA = []
 line = 3
 column = 7
