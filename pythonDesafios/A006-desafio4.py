@@ -1,9 +1,5 @@
 algo = input('Digite algo: ')
 
-if algo.isnumeric():
-    algo = int(algo)
-    print('O tipo primitivo desse valor é {}'.format(type(algo)))
-
 print('O tipo primitivo desse valor é {}'.format(type(algo)))
 print('Só tem espaços? {}'.format(algo.isspace()))
 print('É um número? {}'.format(algo.isnumeric()))
