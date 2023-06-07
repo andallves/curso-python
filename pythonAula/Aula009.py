@@ -74,13 +74,13 @@ print(test.rstrip())
 # o espaço do lado esquerdo
 print(test.lstrip())
 
-# ========== Divisão ==========
+# ============ Divisão ============
 
 # o método split por default divide a palavra nos espaços
 dividido = phrase.split()
 print(dividido)
 
-# ========== Junção ==========
+# ============ Junção ============
 
 # o método join é utilizado para juntar palavras
 print('-'.join(dividido))
@@ -101,11 +101,7 @@ print(len(phrase))
 
 """
 ============ DESAFIOS ============
-# Crie um program que leia o nome completo de uma pessoa e mostre:
-    - O nome com todas as letras maiúsculas
-    - O nome com todas as letras minúsculas
-    - Quantas letras ao todo (sem considerar espaços)
-    - Quantas letras tem o primerio nome
+
 
 # Faça um program que leia um número de 0 a 9999 e mostre na tela cada um dos
 digitos separados.
