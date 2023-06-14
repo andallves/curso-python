@@ -17,5 +17,3 @@ qtdLettersFirstName = len(qtdLetras[1])
 qtdLetras = ''.join(qtdLetras)
 print('O nome {} tem {} letras ao todo'.format(name, len(qtdLetras)))
 print('o primeiro nome tem {} letras'.format(qtdLettersFirstName))
-
-
