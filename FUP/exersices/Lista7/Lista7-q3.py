@@ -2,7 +2,7 @@ print('Cédulas disponíveis para saque 2, 5, 10, 20, 50, 100, 200')
 saque = int(input('Quanto deseja sacar? R$'))
 
 
-def cedulasSaque(valor: int):
+def cedulasSaque(valor):
     if saque < 4:
         return print('Valor inválido! O valor precisar ser pelo menos R$ 4,00')
 
@@ -13,6 +13,12 @@ def cedulasSaque(valor: int):
 
     while True:
         if total >= cedula[a]:
+            if total % cedula[a] == 1:
+                a -= 1
+                total -= cedula[a]
+                totalCedula += 1
+                continue
+
             total -= cedula[a]
             totalCedula += 1
 
