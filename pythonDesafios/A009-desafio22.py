@@ -6,14 +6,11 @@
     - Quantas letras tem o primerio nome
 """
 
-name = input('Nome completo: ')
-print('')
+name = str(input('Nome completo: ')).strip()
 
-print('O nome com todas as letras maiúsculas: {}'.format(name.upper()))
-print('O nome com todas as letras minusculas; {}'.format(name.lower()))
-
-qtdLetras = name.strip().split()
-qtdLettersFirstName = len(qtdLetras[1])
-qtdLetras = ''.join(qtdLetras)
-print('O nome {} tem {} letras ao todo'.format(name, len(qtdLetras)))
-print('o primeiro nome tem {} letras'.format(qtdLettersFirstName))
+print('O nome em maiúsculas: {}'.format(name.upper()))
+print('O nome em minusculas: {}'.format(name.lower()))
+print('O nome tem {} letras ao todo'.format(len(name) - name.count(' ')))
+#  print('Seu primeiro nome tem {} letras'.format(name.find(' ')))
+splitName = name.split()
+print('O primeiro {} tem {} letras'.format(splitName[0], len(splitName[0])))
