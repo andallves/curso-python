@@ -10,5 +10,5 @@ def exponential(n):
     return 2 * exponential(n - 1)
 
 
-print(exponential(5))
-print(2 ** 0)
+number = int(input('Digite um número qualquer: '))
+exponential(number)
