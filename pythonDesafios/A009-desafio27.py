@@ -6,8 +6,8 @@ o primeiro e o último nome separadamente.
     - último = Souza
 """
 
-fullname = input('Digite seu nome completo: ')
-fullnameArr = fullname.strip().split()
+fullname = str(input('Digite seu nome completo: ')).strip()
+fullnameArr = fullname.split()
 
 print('O primeiro nome é: {}'.format(fullnameArr[0]))
 print('O primeiro nome é: {}'.format(fullnameArr[len(fullnameArr) - 1]))

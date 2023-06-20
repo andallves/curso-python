@@ -9,7 +9,7 @@ def generateVector(vect):
     if len(vect) == 10:
         return max(vect)
 
-    (vect.append(randint(1, 99)))
+    vect.append(randint(1, 99))
 
     return generateVector(vect)
 

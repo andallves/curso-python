@@ -3,11 +3,11 @@
 ou não com o nome "SANTO".
 """
 
-name = input('Qual é o seu nome: ')
+name = str(input('Em que cidade você nasceu? ')).strip().lower()
 
-hasSanto = name.lower().find('santo')
+hasSanto = name.find('santo')
 
 if hasSanto != -1 and hasSanto == 0:
-    print('Seu nome começa com Santo')
+    print('Começa com Santo')
 else:
-    print('Seu nome não começa com Santo')
+    print('Não começa com Santo')
