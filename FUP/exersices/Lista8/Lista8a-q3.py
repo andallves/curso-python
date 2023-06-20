@@ -14,5 +14,5 @@ def generateVector(vect):
     return generateVector(vect)
 
 
-vect = []
+vect: list = []
 print(generateVector(vect))
